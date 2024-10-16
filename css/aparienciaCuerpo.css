@@ -1,0 +1,78 @@
+.ContenedorPrincipal {
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.ContenedorSecundario {
+    display: grid;
+    place-content: center;
+}
+
+.ContenedorDinero {
+    display: grid;
+    place-content: center;
+}
+
+#CantidadDinero {
+    margin: 0;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.ContenedorTerciario {
+}
+
+.HistorialGastos {
+}
+
+.Gasto {
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 400px;
+}
+
+.Gasto * {
+    margin: 0;
+    padding: 0;
+}
+
+.Gasto img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.TextoHistorialGastos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TextoHistorialGastos p {
+    padding-left: 20px;
+}
+
+.DivisionTexto1 {
+
+}
+
+.NombrePago {
+    color: black;
+    font-size: 25px;
+}
+
+.Fecha {
+    color: #6e6e6e;
+}
+
+.CantidadGasto {
+    padding-right: 10px
+}

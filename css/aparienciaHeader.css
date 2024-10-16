@@ -1,0 +1,28 @@
+header{
+    width: 100vw;
+}
+
+header p{
+    font-weight: 900;
+    font-size: 50px;
+    display: inline;
+    margin-right: 70px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}

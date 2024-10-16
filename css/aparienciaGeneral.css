@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+a{
+    color: #352e83;
+}
+
+strong {
+    font-weight: 900;
+}
