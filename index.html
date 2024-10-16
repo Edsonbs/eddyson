@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="contenedorMini">
+                <form action="logica.php" method="POST">
+                    <div id="bloqueConversor">
+                        <h1>Conversor</h1>
+                    </div>
+                    <div>
+                        <p>
+                            Elige la cantidad de dinero y la conversión que quieres hacer.<br>
+                        </p>
+                    </div>
+                    <div id="bloqueInteractuar">
+                        <p>
+                            Cantidad:
+                            <input class="entradaNumero" id="entradaNumero" name="entradaNumero" type="number" required>
+                            Conversión:
+                            <select name="divisa" id="divisa" class="divisa">
+                                <option value="euro">De Euro a Peseta</option>
+                                <option value="peseta">De Peseta a Euro</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div id="bloqueBoton">
+                        <input type="submit" value="Convertir">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
